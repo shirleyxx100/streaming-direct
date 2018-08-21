@@ -419,6 +419,12 @@ input {
   }
 }
 
+@media only screen and (max-width: 330px) {
+  .features .icon {
+    height: 40px;
+  }
+}
+
 /* footer */
 footer {
   background-color: rgba(30, 30, 30, 1);
