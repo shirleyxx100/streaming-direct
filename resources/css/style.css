@@ -108,6 +108,17 @@ header {
 }
 
 /* button */
+.arrow {
+  position: relative;
+  top: -50px;
+  z-index: 11;
+  text-align: center;
+}
+
+.arrow img {
+  width: 40px;
+}
+
 .btn.container {
   background-image: url("../../resources/images/button.svg");
   background-repeat: no-repeat;
@@ -117,6 +128,8 @@ header {
   font-weight : 800;
   align-items: center;
   z-index: 10;
+  position: relative;
+  top: -45px;
 }
 
 .btn:hover {
@@ -225,6 +238,18 @@ input {
   .carousel-six.container {
     margin-top: 30px;
   }
+
+  .arrow {
+    top: -40px;
+  }
+
+  .arrow img {
+    width: 30px;
+  }
+
+  .btn.container {
+    top: -35px;
+  }
 }
 
 @media only screen and (max-width: 580px) {
@@ -286,6 +311,18 @@ input {
   .close {
     top: 15px;
   }
+
+  .arrow img {
+    width: 25px;
+  }
+
+  .arrow {
+    top: -15px;
+  }
+
+  .btn.container {
+    top: -10px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -314,10 +351,17 @@ input {
   position: relative;
   padding: 20px;
   z-index: 6;
+  top: -45px;
 }
 
 .carousel-six img {
   width: 90%;
+}
+
+@media only screen and (max-width: 540px) {
+  .carousel-six.container {
+    top: -25px;
+  }
 }
 
 /* feature */
